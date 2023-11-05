@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.myapplication.UserMenuOptions" >
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView901"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:fillViewport="true"
+        android:scrollbars="horizontal|vertical" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:alignmentMode="alignBounds"
+
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:orientation="vertical"
+            android:rowCount="20"
+            android:useDefaultMargins="true" >
+
+
+
+
+            <Button
+                android:id="@+id/btnViewHealthTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_row="3"
+                android:text="View Health Tips"
+                />
+            <Button
+                android:id="@+id/btnViewDoctorDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_row="4"
+                android:text="View Doctor Details"
+                />
+
+            <Button
+                android:id="@+id/btnViewDiseaseInformations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_row="5"
+                android:text="View Disease Informations"
+                />
+
+            <Button
+                android:id="@+id/btnSearchHealthTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_row="6"
+                android:text="Search Health Tips"
+                />
+
+            <Button
+                android:id="@+id/btnSearchDoctorDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_row="7"
+                android:text="Search Doctor Details"
+                />
+
+            <Button
+                android:id="@+id/btnSearchDiseaseInformations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_row="8"
+                android:text="Search Disease Informations"
+                />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_row="9"
+                android:text="Exit" />
+
+
+
+        </GridLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
